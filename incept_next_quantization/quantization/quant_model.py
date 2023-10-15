@@ -2,7 +2,7 @@ import timm
 import torch
 from torch import nn
 
-import inception_next.inceptionnext
+import incept_next_quantization.inception_next.inceptionnext
 
 
 class QuantModel(nn.Module):

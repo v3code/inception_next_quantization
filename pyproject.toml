@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "ineption_next_quantization"
+name = "incept_next_quantization"
 version = "0.1.0"
 description = ""
 authors = ["v3code <vitalik.w555@gmail.com>"]
 readme = "README.md"
-packages = [{include = "ineption_next_quantization"}]
+packages = [{include = "incept_next_quantization"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
