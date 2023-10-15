@@ -9,19 +9,9 @@ packages = [{include = "incept_next_quantization"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 timm = "^0.9.7"
-torchvision = "^0.16.0"
-
-
-
-
-[[tool.poetry.source]]
-name = "torch-cpu"
-url = "https://download.pytorch.org/whl/cpu"
-priority = "supplemental"
-
-
-[tool.poetry.group.local.dependencies]
-torch = {version = "^2.1.0+cpu", source = "torch-cpu"}
+torchvision = "0.15.2"
+torch = "2.0.1"
+torchaudio = "2.0.2"
 
 [build-system]
 requires = ["poetry-core"]
